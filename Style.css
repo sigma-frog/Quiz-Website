@@ -1,21 +1,17 @@
 body {
-margin: 0
-color:#255472
-background-color: #9975672;
-font-family: "Libre Caslon Text", Georgia, serif;
+margin: 0;
+place-items: center;
+color: #eae191;
+font-family: "Libre Caslon Text", Georgia, serif
 }
-
 
 h1{
-color:#255472
-font: size 15px;
+color:#b32f2f;
+font: size 15px
 }
 
+p{ 
+font-size: smaller;
+color:#e74a4a;
 
-
-main {
-max-width
-margin: 2px;
-padding:4px
 }
-
