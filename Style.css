@@ -2,16 +2,16 @@ body {
 margin: 0;
 place-items: center;
 color: #eae191;
-font-family: "Libre Caslon Text", Georgia, serif
+font-family: "Libre Caslon Text", Georgia, serif;
 }
 
 h1{
 color:#b32f2f;
-font: size 15px
+font: size 15px;
 }
 
 p{ 
 font-size: smaller;
 color:#e74a4a;
-
 }
+
