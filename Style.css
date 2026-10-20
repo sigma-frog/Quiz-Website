@@ -3,7 +3,15 @@ margin: 0;
 place-items: center;
 color: #eae191;
 font-family: "Libre Caslon Text", Georgia, serif;
+background: linear-gradient(#8ba0b0, #7a7baf);
+text-align: center;
 }
+main {
+max-width: 32rem;
+margin: 0 auto;
+padding: 0 1rem 4rem;
+}
+
 
 h1{
 color:#b32f2f;
@@ -15,3 +23,32 @@ font-size: smaller;
 color:#e74a4a;
 }
 
+h3{
+color:aquamarine;
+font-size:25px;
+}
+
+.globe-card {
+  background: #fdf7e8;
+  border: 2px solid #235fd4;
+  padding: 2rem;
+  display: float;
+  flex-direction: column;
+  align-items: right;
+  gap: 1.25rem;
+}
+
+button {
+  font: inherit;
+  color: #ffffff;
+  background: #df5034;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  cursor: pointer;
+  transition: background 150ms ease, transform 150ms ease;
+}
+ 
+button:hover {
+  background: #a43835;
+  transform: scale(1.05);
+}
